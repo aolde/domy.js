@@ -13,6 +13,7 @@ Latest version of the browsers below are supported.
 - Google Chrome
 - Firefox
 - Opera
+- Safari
 
 
 Credit
