@@ -25,3 +25,32 @@ http://jquery.com/
 
 Light - by freelancephp.net  
 http://snipplr.com/view/29083/light-4kb-minijquery/
+
+Current set of methods
+---
+
+- `Domy.ready()`
+- `Domy.ajax()`
+- `Domy.post()`
+- `Domy.get()`
+- `Domy.getJSON()`
+- `$('body > div').`
+	- `get()`
+	- `size()`
+	- `bind()`
+	- `click()`
+	- `each()`
+	- `prop()`
+	- `attr()`
+	- `removeAttr()`
+	- `css()`
+	- `addClass()`
+	- `removeClass()`
+	- `hasClass()`
+	- `remove()`
+	- `html()`
+	- `text()`
+	- `val()`
+
+
+
