@@ -4,7 +4,7 @@ Slim DOM-helper JavaScript library for modern browsers. Domy.js mirrors most of 
 
 Why?
 ----
-This library was created while developing extensions for Google Chrome, because including the full jQuery library felt like a waste when I would not need most of the features and the cross-browser support it offers. Domy.js only have the most basic utilities and use the latest DOM API to keep the code small.
+This library was created while developing extensions for Google Chrome, where you do not need all the features jQuery offers, like the wide cross-browser support it has. Domy.js only have the most basic utilities and use the latest DOM API to keep the code small.
 
 Support
 -------
