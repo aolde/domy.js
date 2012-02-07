@@ -51,6 +51,10 @@ Current set of methods
 	- `html()`
 	- `text()`
 	- `val()`
+ 	- `before()`
+ 	- `after()`
+	- `prepend()`
+       	- `append()`
 
 
 
