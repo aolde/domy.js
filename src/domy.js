@@ -10,6 +10,8 @@
     if (!window.D)
         window.D = window.Domy;
 
+    Domy.version = '1.0.0';
+
     Domy.fn = Domy.prototype = {
         init: function (selector) {
             this.elements = [];
@@ -141,6 +143,30 @@
             return this.each(function (el) {
                 if ('value' in el)
                     el.value = value;
+            });
+        },
+
+        before: function (content) {
+            return this.each(function(el) {
+                el.insertAdjacentHTML("beforeBegin", content);
+            });
+        },
+        
+        after: function (content) {
+            return this.each(function (el) {
+                el.insertAdjacentHTML("afterEnd", content);
+            });
+        },
+        
+        prepend: function (content) {
+            return this.each(function (el) {
+                el.insertAdjacentHTML("afterBegin", content);
+            });
+        },
+        
+        append: function (content) {
+            return this.each(function (el) {
+                el.insertAdjacentHTML("beforeEnd", content);
             });
         },
 
