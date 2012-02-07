@@ -54,7 +54,4 @@ Current set of methods
  	- `before()`
  	- `after()`
 	- `prepend()`
-       	- `append()`
-
-
-
+ 	- `append()`
