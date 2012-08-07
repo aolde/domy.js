@@ -1,10 +1,10 @@
 domy.js
 =======================================
-Slim DOM-helper JavaScript library for modern browsers. Domy.js mirrors most of jQuery's core methods, except it does not support older browsers.
+Slim DOM-helper JavaScript library for modern browsers. Domy.js mirrors most of jQuery's core methods, except it does not support legacy web browsers.
 
 Why?
 ----
-This library was created while developing extensions for Google Chrome, where you do not need all the features jQuery offers, like the wide cross-browser support it has. Domy.js only have the most basic utilities and use the latest DOM API to keep the code small.
+This library was created while developing extensions for Google Chrome, where you do not need all features jQuery offers, like the wide cross-browser support it has. Domy.js only have the most basic utilities and use the latest DOM API to keep the code small.
 
 Support
 -------
